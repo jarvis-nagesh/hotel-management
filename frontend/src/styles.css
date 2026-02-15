@@ -1,0 +1,18 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #f3f5f8; }
+.layout { display: grid; grid-template-columns: 1fr 280px; min-height: 100vh; }
+.content { padding: 24px; }
+.card { background: white; padding: 16px; border-radius: 8px; margin-bottom: 16px; }
+.row-form { display: flex; gap: 8px; flex-wrap: wrap; }
+.row-form input, .col-form input, .col-form select { padding: 8px; border: 1px solid #ccc; border-radius: 6px; }
+button { background: #0a66c2; color: white; border: 0; padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+button.secondary { background: #777; }
+.sidebar { background: #121b2f; color: white; padding: 20px; }
+.table-pill { width: 100%; margin-bottom: 8px; text-align: left; background: #25385f; }
+.menu-list { padding-left: 18px; margin: 8px 0; }
+.message { color: #b42318; font-weight: 600; }
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: grid; place-items: center; }
+.modal { background: white; width: 460px; max-width: 90vw; border-radius: 8px; padding: 18px; }
+.col-form { display: flex; gap: 8px; margin-bottom: 12px; }
+.total { font-size: 18px; font-weight: 600; }
+.actions { display: flex; gap: 8px; justify-content: flex-end; }
